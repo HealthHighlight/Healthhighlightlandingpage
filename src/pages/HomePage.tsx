@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { Button } from "../components/ui/button";
 import { ArrowRight } from "lucide-react";
-import logo from "figma:asset/3ae3d9991a503ff871a2ed945175be5601d85417.png";
+import logo from "../assets/health-highlight.svg";
 
 export function HomePage() {
   return (
@@ -37,10 +37,9 @@ export function HomePage() {
 
             {/* Description */}
             <p className="text-xl text-white/80 max-w-2xl mx-auto">
-              Invest in your well-being, one day at a time. Our
-              carefully crafted apps help you build healthy
-              habits through the power of small, consistent
-              actions.
+              Invest in your well-being, one day at a time. Our carefully
+              crafted apps help you build healthy habits through the power of
+              small, consistent actions.
             </p>
 
             {/* CTA Buttons */}
@@ -48,7 +47,7 @@ export function HomePage() {
               <Link to="/products">
                 <Button
                   size="lg"
-                  className="px-8 py-6"
+                  className="px-8 py-6 cursor-pointer"
                   style={{
                     background: "rgb(255, 193, 95)",
                     color: "rgb(69, 71, 116)",
@@ -62,7 +61,7 @@ export function HomePage() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="px-8 py-6 border-2 border-white text-white hover:bg-white/10"
+                  className="px-8 py-6 border-2 border-white text-white hover:bg-white/10 cursor-pointer"
                 >
                   Learn More
                 </Button>
@@ -93,9 +92,8 @@ export function HomePage() {
               Why Health Highlight?
             </h2>
             <p className="text-xl text-gray-600">
-              We believe in the power of incremental
-              improvement. Small, consistent actions lead to
-              remarkable transformations.
+              We believe in the power of incremental improvement. Small,
+              consistent actions lead to remarkable transformations.
             </p>
           </div>
 
@@ -129,9 +127,8 @@ export function HomePage() {
                 Simple & Effective
               </h3>
               <p className="text-gray-600">
-                Our apps are designed to be intuitive and easy
-                to use, so you can focus on building habits that
-                matter.
+                Our apps are designed to be intuitive and easy to use, so you
+                can focus on building habits that matter.
               </p>
             </div>
 
@@ -164,8 +161,8 @@ export function HomePage() {
                 The 1% Principle
               </h3>
               <p className="text-gray-600">
-                Just 1% of your day dedicated to health actions
-                compounds into remarkable well-being over time.
+                Just 1% of your day dedicated to health actions compounds into
+                remarkable well-being over time.
               </p>
             </div>
 
@@ -198,9 +195,8 @@ export function HomePage() {
                 Built with Care
               </h3>
               <p className="text-gray-600">
-                Created by two friends who understand the
-                challenges of fitting health into a busy
-                lifestyle.
+                Created by two friends who understand the challenges of fitting
+                health into a busy lifestyle.
               </p>
             </div>
           </div>
@@ -220,13 +216,12 @@ export function HomePage() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Discover our apps and start your journey to better
-            health today.
+            Discover our apps and start your journey to better health today.
           </p>
           <Link to="/products">
             <Button
               size="lg"
-              className="px-10 py-6"
+              className="px-10 py-6 cursor-pointer"
               style={{
                 background: "rgb(255, 193, 95)",
                 color: "rgb(69, 71, 116)",
