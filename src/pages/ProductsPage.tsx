@@ -30,7 +30,7 @@ const products = [
     ],
   },
   {
-    name: "Lito",
+    name: "LiTO",
     description:
       "Your personal journaling companion. Reflect, grow, and discover insights about yourself through daily writing.",
     icon: BookOpen,

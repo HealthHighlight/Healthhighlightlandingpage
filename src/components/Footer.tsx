@@ -77,7 +77,7 @@ export function Footer() {
                   href="https://lito.healthhighlight.com"
                   className="text-white/80 hover:text-white transition-colors"
                 >
-                  Lito
+                  LiTO
                 </a>
               </li>
               <li>
